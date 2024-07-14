@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Jai Blog's</h1>
+    </header>
+    <main>
+        <section id="blog-posts">
+            <article class="post" id="post-1">
+                <h2>My Blogs</h2>
+                <!-- <p>This is the content of the first blog post.</p>
+                <button class="like-btn"><i class="fas fa-thumbs-up"></i> Like <span class="like-count">0</span></button>
+                <div class="comments-section">
+                    <h3>Comments</h3>
+                    <ul class="comments-list"></ul>
+                    <input type="text" class="comment-input" placeholder="Add a comment">
+                    <button class="comment-btn">Post Comment</button> -->
+                </div>
+            </article>
+        </section>
+        <aside>
+            <h2>Recent Comments</h2>
+            <ul id="recent-comments">
+            </ul>
+        </aside>
+    </main>
+    <section id="new-post-section">
+        <h2>Add a New Blog Post</h2>
+        <input type="text" id="new-post-title" placeholder="Title">
+        <textarea id="new-post-content" placeholder="Content"></textarea>
+        <button id="add-post-btn">Add Post</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
